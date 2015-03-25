@@ -1,0 +1,35 @@
+{
+  "name": "cordova-plugin-inappbrowser",
+  "version": "0.0.1-dev",
+  "description": "Element Payment Services Transform Mobile SDK Plugin",
+  "cordova": {
+    "id": "com.butterflysys.elementps.transformMobileSDK",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git-wip-us.apache.org/repos/asf/cordova-plugin-inappbrowser.git"
+  },
+  "keywords": [
+    "cordova",
+    "transform",
+    "mobile",
+    "android",
+    "ios",
+    "transformMobileSDK",
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios"
+  ],
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.7.0"
+    }
+  ],
+  "author": "Butterfly Systems, LLC.",
+  "license": "Proprietary and Confidential"
+}
