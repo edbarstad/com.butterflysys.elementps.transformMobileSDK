@@ -36,10 +36,10 @@
   <!--  android  -->
   <platform name="android">
     <js-module src="www/EPSDevice.js" name="epsdevice">
-      <clobbers target="cordova.EPSDevice"/>
+      <clobbers target="EPSDevice"/>
     </js-module>
     <js-module src="www/EPSExpress.js" name="epsexpress">
-      <clobbers target="cordova.EPSExpress"/>
+      <clobbers target="EPSExpress"/>
     </js-module>
 <!--     <config-file target="res/xml/config.xml" parent="/*">
       <feature name="InAppBrowser">
@@ -67,10 +67,10 @@
   <!--  ios  -->
   <platform name="ios">
     <js-module src="www/EPSDevice.js" name="epsdevice">
-      <clobbers target="cordova.EPSDevice"/>
+      <clobbers target="EPSDevice"/>
     </js-module>
     <js-module src="www/EPSExpress.js" name="epsexpress">
-      <clobbers target="cordova.EPSExpress"/>
+      <clobbers target="EPSExpress"/>
     </js-module>
 <!--     <config-file target="config.xml" parent="/*">
       <feature name="InAppBrowser">
