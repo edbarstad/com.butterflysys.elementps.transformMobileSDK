@@ -30,7 +30,7 @@
   </issue>
  -->
    <engines>
-    <engine name="cordova" version=">=3.7.0"/>
+    <engine name="cordova" version=">=3.6.4"/>
     <!--  Needs cordova/urlutil  -->
   </engines>
   <!--  android  -->
