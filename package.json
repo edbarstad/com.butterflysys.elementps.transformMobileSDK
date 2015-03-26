@@ -1,5 +1,5 @@
 {
-  "name": "cordova-plugin-transformMobileSDK",
+  "name": "TransformMobileSDK",
   "version": "0.0.1-dev",
   "description": "Element Payment Services Transform Mobile SDK Plugin",
   "cordova": {

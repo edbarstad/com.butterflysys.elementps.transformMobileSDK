@@ -20,8 +20,9 @@
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" id="com.butterflysys.elementps.transformMobileSDK" version="0.0.1-dev">
   <name>TransformMobileSDK</name>
   <description>Element Payment Services Transform Mobile SDK Plugin</description>
-  <license>Proprietary and Confidential, Butterfly Systems, LLC.</license>
+  <author>Butterfly Systems</author>author>
   <keywords>cordova,element,butterflysys,transform,mobile</keywords>
+  <license>Proprietary and Confidential, Butterfly Systems, LLC.</license>
 <!--   <repo>
     https://git-wip-us.apache.org/repos/asf/cordova-plugin-inappbrowser.git
   </repo>
@@ -35,10 +36,10 @@
   </engines>
   <!--  android  -->
   <platform name="android">
-    <js-module src="www/EPSDevice.js" name="epsdevice">
+    <js-module src="www/EPSDevice.js" name="EPSDevice">
       <clobbers target="EPSDevice"/>
     </js-module>
-    <js-module src="www/EPSExpress.js" name="epsexpress">
+    <js-module src="www/EPSExpress.js" name="EPSExpress">
       <clobbers target="EPSExpress"/>
     </js-module>
 <!--     <config-file target="res/xml/config.xml" parent="/*">
@@ -66,10 +67,10 @@
   </platform>
   <!--  ios  -->
   <platform name="ios">
-    <js-module src="www/EPSDevice.js" name="epsdevice">
+    <js-module src="www/EPSDevice.js" name="EPSDevice">
       <clobbers target="EPSDevice"/>
     </js-module>
-    <js-module src="www/EPSExpress.js" name="epsexpress">
+    <js-module src="www/EPSExpress.js" name="EPSExpress">
       <clobbers target="EPSExpress"/>
     </js-module>
 <!--     <config-file target="config.xml" parent="/*">

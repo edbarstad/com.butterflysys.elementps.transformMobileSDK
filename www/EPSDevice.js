@@ -13,4 +13,4 @@ var EPSDevice = {
   }
 };
 
-mobile.exports = EPSDevice;
+module.exports = EPSDevice;

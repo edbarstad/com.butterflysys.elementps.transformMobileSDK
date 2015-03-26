@@ -13,4 +13,4 @@ var EPSExpress = {
   }
 };
 
-mobile.exports = EPSExpress;
+module.exports = EPSExpress;
