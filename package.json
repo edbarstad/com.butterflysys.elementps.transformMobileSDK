@@ -1,5 +1,5 @@
 {
-  "name": "cordova-plugin-inappbrowser",
+  "name": "cordova-plugin-transformMobileSDK",
   "version": "0.0.1-dev",
   "description": "Element Payment Services Transform Mobile SDK Plugin",
   "cordova": {
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://git-wip-us.apache.org/repos/asf/cordova-plugin-inappbrowser.git"
+    "url": "https://github.com/edbarstad/com.butterflysys.elementps.transformMobileSDK.git"
   },
   "keywords": [
     "cordova",
