@@ -36,11 +36,8 @@
   </engines>
   <!--  android  -->
   <platform name="android">
-    <js-module src="www/EPSDevice.js" name="EPSDevice">
-      <clobbers target="EPSDevice"/>
-    </js-module>
-    <js-module src="www/EPSExpress.js" name="EPSExpress">
-      <clobbers target="EPSExpress"/>
+    <js-module src="www/EPSTransformMobile.js" name="EPSTransformMobile">
+      <clobbers target="EPSTransformMobile"/>
     </js-module>
 <!--     <config-file target="res/xml/config.xml" parent="/*">
       <feature name="InAppBrowser">
@@ -67,21 +64,34 @@
   </platform>
   <!--  ios  -->
   <platform name="ios">
-    <js-module src="www/EPSDevice.js" name="EPSDevice">
-      <clobbers target="EPSDevice"/>
+    <js-module src="www/EPSTransformMobile.js" name="EPSTransformMobile">
+      <clobbers target="EPSTransformMobile"/>
     </js-module>
-    <js-module src="www/EPSExpress.js" name="EPSExpress">
-      <clobbers target="EPSExpress"/>
+    <js-module src="www/EPS.js" name="EPS">
+      <merges target="EPS"/>
     </js-module>
-<!--     <config-file target="config.xml" parent="/*">
-      <feature name="InAppBrowser">
-        <param name="ios-package" value="CDVInAppBrowser"/>
+    <js-module src="www/EPS.Device.js" name="EPS.Device">
+      <merges target="EPS.Device"/>
+    </js-module>
+    <js-module src="www/EPS.Express.js" name="EPS.Express">
+      <merges target="EPS.Express"/>
+    </js-module>
+    <js-module src="www/EPS.Utils.js" name="EPS.Utils">
+      <merges target="EPS.Utils"/>
+    </js-module>
+     <config-file target="config.xml" parent="/*">
+      <feature name="EPS.Device">
+        <param name="ios-package" value="EPSDevicePlugin"/>
+      </feature>
+      <feature name="EPS.Express">
+        <param name="ios-package" value="EPSExpressPlugin"/>
       </feature>
     </config-file>
-    <header-file src="src/ios/CDVInAppBrowser.h"/>
-    <source-file src="src/ios/CDVInAppBrowser.m"/>
-    <framework src="CoreGraphics.framework"/>
- -->
+    <header-file src="src/ios/EPSDevicePlugin.h"/>
+    <source-file src="src/ios/EPSDevicePlugin.m"/>
+    <header-file src="src/ios/EPSExpressPlugin.h"/>
+    <source-file src="src/ios/EPSExpressPlugin.m"/>
+
    </platform>
   <!--  browser  -->
 <!--
